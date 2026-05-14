@@ -1,0 +1,157 @@
+  ▲ Next.js 14.2.35
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/20) ...
+Error: @supabase/ssr: Your project's URL and API key are required to create a Supabase client!
+
+Check your Supabase project's API settings to find these values
+
+https://supabase.com/dashboard/project/_/settings/api
+    at r9 (/Users/teluski/Documents/precify/.next/server/chunks/985.js:55:105)
+    at a (/Users/teluski/Documents/precify/.next/server/app/(auth)/login/page.js:1:11113)
+    at b (/Users/teluski/Documents/precify/.next/server/app/(auth)/login/page.js:1:2345)
+    at nj (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:46252)
+    at nM (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47572)
+    at nL (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64547)
+    at nI (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47011)
+    at nM (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47718)
+    at nM (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:61547)
+    at nL (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64547) {
+  digest: '2215953451'
+}
+   Generating static pages (5/20) 
+Error: @supabase/ssr: Your project's URL and API key are required to create a Supabase client!
+
+Check your Supabase project's API settings to find these values
+
+https://supabase.com/dashboard/project/_/settings/api
+    at r9 (/Users/teluski/Documents/precify/.next/server/chunks/985.js:55:105)
+    at a (/Users/teluski/Documents/precify/.next/server/app/(auth)/nova-senha/page.js:1:9625)
+    at h (/Users/teluski/Documents/precify/.next/server/app/(auth)/nova-senha/page.js:1:2380)
+    at nj (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:46252)
+    at nM (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47572)
+    at nL (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64547)
+    at nI (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47011)
+    at nM (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47718)
+    at nM (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:61547)
+    at nL (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64547) {
+  digest: '1743273619'
+}
+
+Error occurred prerendering page "/login". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: @supabase/ssr: Your project's URL and API key are required to create a Supabase client!
+
+Check your Supabase project's API settings to find these values
+
+https://supabase.com/dashboard/project/_/settings/api
+    at r9 (/Users/teluski/Documents/precify/.next/server/chunks/985.js:55:105)
+    at a (/Users/teluski/Documents/precify/.next/server/app/(auth)/login/page.js:1:11113)
+    at b (/Users/teluski/Documents/precify/.next/server/app/(auth)/login/page.js:1:2345)
+    at nj (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:46252)
+    at nM (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47572)
+    at nL (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64547)
+    at nI (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47011)
+    at nM (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47718)
+    at nM (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:61547)
+    at nL (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64547)
+
+Error occurred prerendering page "/nova-senha". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: @supabase/ssr: Your project's URL and API key are required to create a Supabase client!
+
+Check your Supabase project's API settings to find these values
+
+https://supabase.com/dashboard/project/_/settings/api
+    at r9 (/Users/teluski/Documents/precify/.next/server/chunks/985.js:55:105)
+    at a (/Users/teluski/Documents/precify/.next/server/app/(auth)/nova-senha/page.js:1:9625)
+    at h (/Users/teluski/Documents/precify/.next/server/app/(auth)/nova-senha/page.js:1:2380)
+    at nj (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:46252)
+    at nM (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47572)
+    at nL (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64547)
+    at nI (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47011)
+    at nM (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47718)
+    at nM (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:61547)
+    at nL (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64547)
+Error: @supabase/ssr: Your project's URL and API key are required to create a Supabase client!
+
+Check your Supabase project's API settings to find these values
+
+https://supabase.com/dashboard/project/_/settings/api
+    at r9 (/Users/teluski/Documents/precify/.next/server/chunks/985.js:55:105)
+    at n (/Users/teluski/Documents/precify/.next/server/app/(auth)/cadastro/page.js:1:39562)
+    at e7 (/Users/teluski/Documents/precify/.next/server/app/(auth)/cadastro/page.js:1:28415)
+    at nj (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:46252)
+    at nM (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47572)
+    at nL (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64547)
+    at nI (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47011)
+    at nM (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47718)
+    at nM (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:61547)
+    at nL (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64547) {
+  digest: '106619174'
+}
+Error: @supabase/ssr: Your project's URL and API key are required to create a Supabase client!
+
+Check your Supabase project's API settings to find these values
+
+https://supabase.com/dashboard/project/_/settings/api
+    at r9 (/Users/teluski/Documents/precify/.next/server/chunks/985.js:55:105)
+    at a (/Users/teluski/Documents/precify/.next/server/app/(auth)/esqueci-senha/page.js:1:10026)
+    at v (/Users/teluski/Documents/precify/.next/server/app/(auth)/esqueci-senha/page.js:1:2498)
+    at nj (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:46252)
+    at nM (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47572)
+    at nL (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64547)
+    at nI (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47011)
+    at nM (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47718)
+    at nM (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:61547)
+    at nL (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64547) {
+  digest: '4096558078'
+}
+
+Error occurred prerendering page "/cadastro". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: @supabase/ssr: Your project's URL and API key are required to create a Supabase client!
+
+Check your Supabase project's API settings to find these values
+
+https://supabase.com/dashboard/project/_/settings/api
+    at r9 (/Users/teluski/Documents/precify/.next/server/chunks/985.js:55:105)
+    at n (/Users/teluski/Documents/precify/.next/server/app/(auth)/cadastro/page.js:1:39562)
+    at e7 (/Users/teluski/Documents/precify/.next/server/app/(auth)/cadastro/page.js:1:28415)
+    at nj (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:46252)
+    at nM (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47572)
+    at nL (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64547)
+    at nI (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47011)
+    at nM (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47718)
+    at nM (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:61547)
+    at nL (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64547)
+   Generating static pages (10/20) 
+   Generating static pages (15/20) 
+
+Error occurred prerendering page "/esqueci-senha". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: @supabase/ssr: Your project's URL and API key are required to create a Supabase client!
+
+Check your Supabase project's API settings to find these values
+
+https://supabase.com/dashboard/project/_/settings/api
+    at r9 (/Users/teluski/Documents/precify/.next/server/chunks/985.js:55:105)
+    at a (/Users/teluski/Documents/precify/.next/server/app/(auth)/esqueci-senha/page.js:1:10026)
+    at v (/Users/teluski/Documents/precify/.next/server/app/(auth)/esqueci-senha/page.js:1:2498)
+    at nj (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:46252)
+    at nM (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47572)
+    at nL (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64547)
+    at nI (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47011)
+    at nM (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47718)
+    at nM (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:61547)
+    at nL (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64547)
+ ✓ Generating static pages (20/20)
+
+> Export encountered errors on following paths:
+	/(auth)/cadastro/page: /cadastro
+	/(auth)/esqueci-senha/page: /esqueci-senha
+	/(auth)/login/page: /login
+	/(auth)/nova-senha/page: /nova-senha

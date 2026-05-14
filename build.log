@@ -1,0 +1,80 @@
+  ▲ Next.js 14.2.35
+
+   Creating an optimized production build ...
+Failed to compile.
+
+./app/globals.css.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./app/globals.css
+Error: Cannot find module 'tailwindcss-animate'
+Require stack:
+- /Users/teluski/Documents/precify/tailwind.config.ts
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1475:15)
+    at /Users/teluski/Documents/precify/node_modules/next/dist/server/require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1048:27)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1093:12)
+    at require.resolve (node:internal/modules/helpers:209:31)
+    at _resolve (/Users/teluski/Documents/precify/node_modules/jiti/dist/jiti.js:1:246378)
+    at jiti (/Users/teluski/Documents/precify/node_modules/jiti/dist/jiti.js:1:249092)
+    at /Users/teluski/Documents/precify/tailwind.config.ts:82:13
+    at evalModule (/Users/teluski/Documents/precify/node_modules/jiti/dist/jiti.js:1:251913)
+    at jiti (/Users/teluski/Documents/precify/node_modules/jiti/dist/jiti.js:1:249841)
+
+Import trace for requested module:
+./app/globals.css.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./app/globals.css
+./app/globals.css
+
+./app/globals.css
+Error: Cannot find module 'tailwindcss-animate'
+Require stack:
+- /Users/teluski/Documents/precify/tailwind.config.ts
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1475:15)
+    at /Users/teluski/Documents/precify/node_modules/next/dist/server/require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1048:27)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1093:12)
+    at require.resolve (node:internal/modules/helpers:209:31)
+    at _resolve (/Users/teluski/Documents/precify/node_modules/jiti/dist/jiti.js:1:246378)
+    at jiti (/Users/teluski/Documents/precify/node_modules/jiti/dist/jiti.js:1:249092)
+    at /Users/teluski/Documents/precify/tailwind.config.ts:82:13
+    at evalModule (/Users/teluski/Documents/precify/node_modules/jiti/dist/jiti.js:1:251913)
+    at jiti (/Users/teluski/Documents/precify/node_modules/jiti/dist/jiti.js:1:249841)
+    at tryRunOrWebpackError (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/webpack/bundle5.js:28:312989)
+    at __webpack_require_module__ (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/webpack/bundle5.js:28:131165)
+    at __nested_webpack_require_153728__ (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/webpack/bundle5.js:28:130607)
+    at /Users/teluski/Documents/precify/node_modules/next/dist/compiled/webpack/bundle5.js:28:131454
+    at symbolIterator (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/neo-async/async.js:1:14444)
+    at done (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/neo-async/async.js:1:14824)
+    at Hook.eval [as callAsync] (eval at create (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/webpack/bundle5.js:13:28858), <anonymous>:15:1)
+    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/webpack/bundle5.js:13:26012)
+    at /Users/teluski/Documents/precify/node_modules/next/dist/compiled/webpack/bundle5.js:28:130328
+    at symbolIterator (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/neo-async/async.js:1:14402)
+-- inner error --
+Error: Cannot find module 'tailwindcss-animate'
+Require stack:
+- /Users/teluski/Documents/precify/tailwind.config.ts
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1475:15)
+    at /Users/teluski/Documents/precify/node_modules/next/dist/server/require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1048:27)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1093:12)
+    at require.resolve (node:internal/modules/helpers:209:31)
+    at _resolve (/Users/teluski/Documents/precify/node_modules/jiti/dist/jiti.js:1:246378)
+    at jiti (/Users/teluski/Documents/precify/node_modules/jiti/dist/jiti.js:1:249092)
+    at /Users/teluski/Documents/precify/tailwind.config.ts:82:13
+    at evalModule (/Users/teluski/Documents/precify/node_modules/jiti/dist/jiti.js:1:251913)
+    at jiti (/Users/teluski/Documents/precify/node_modules/jiti/dist/jiti.js:1:249841)
+    at Object.<anonymous> (/Users/teluski/Documents/precify/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!/Users/teluski/Documents/precify/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!/Users/teluski/Documents/precify/app/globals.css:1:7)
+    at /Users/teluski/Documents/precify/node_modules/next/dist/compiled/webpack/bundle5.js:28:922493
+    at Hook.eval [as call] (eval at create (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/webpack/bundle5.js:13:28636), <anonymous>:7:1)
+    at Hook.CALL_DELEGATE [as _call] (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/webpack/bundle5.js:13:25906)
+    at /Users/teluski/Documents/precify/node_modules/next/dist/compiled/webpack/bundle5.js:28:131198
+    at tryRunOrWebpackError (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/webpack/bundle5.js:28:312943)
+    at __webpack_require_module__ (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/webpack/bundle5.js:28:131165)
+    at __nested_webpack_require_153728__ (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/webpack/bundle5.js:28:130607)
+    at /Users/teluski/Documents/precify/node_modules/next/dist/compiled/webpack/bundle5.js:28:131454
+    at symbolIterator (/Users/teluski/Documents/precify/node_modules/next/dist/compiled/neo-async/async.js:1:14444)
+
+Generated code for /Users/teluski/Documents/precify/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!/Users/teluski/Documents/precify/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!/Users/teluski/Documents/precify/app/globals.css
+
+Import trace for requested module:
+./app/globals.css
+
+
+> Build failed because of webpack errors
